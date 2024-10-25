@@ -1,0 +1,117 @@
+/* Genel Ayarlar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+body {
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Kişisel Bilgiler */
+.header {
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.title {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.contact-info {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 10px;
+}
+
+.summary {
+    font-size: 1em;
+    color: #444;
+    margin-top: 20px;
+}
+
+/* Deneyim */
+h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-top: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.job, .school {
+    margin-top: 15px;
+}
+
+.job h3, .school h3 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.company, .institution {
+    font-size: 1em;
+    color: #666;
+}
+
+.date {
+    font-size: 0.9em;
+    color: #aaa;
+}
+
+.job ul {
+    margin-top: 10px;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.job ul li {
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* Eğitim */
+.education {
+    margin-top: 20px;
+}
+
+/* Yetenekler */
+.skills ul {
+    margin-top: 10px;
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.skills li {
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* İlgi Alanları */
+.interests p {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+}
+
