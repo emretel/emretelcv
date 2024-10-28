@@ -3,9 +3,9 @@
     margin: 0; /* Resets default margin for all elements */
     padding: 0; /* Resets default padding for all elements */
 }
-.buttonC{
+.button{
     display: flex;
-    justify-content: right;
+    justify-content: center;
     
 }
 body {
