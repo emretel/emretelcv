@@ -62,7 +62,7 @@ const translations = {
 
 // Function to change language
 function changeLanguage(languages) {
-    const elements = Object.keys(translations[selectedLang]);
+    const elements = Object.keys(translations[languages]);
 
     elements.forEach(id => {
         document.getElementById(id).textContent = translations[languages][id];
