@@ -61,12 +61,11 @@ const translations = {
 };
 
 // Function to change language
-function changeLanguage() {
-    const selectedLang = document.getElementById("languageSelector").value;
+function changeLanguage(languages) {
     const elements = Object.keys(translations[selectedLang]);
 
     elements.forEach(id => {
-        document.getElementById(id).textContent = translations[selectedLang][id];
+        document.getElementById(id).textContent = translations[languages][id];
     });
 }
 
