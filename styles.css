@@ -3,7 +3,7 @@
     margin: 0; /* Resets default margin for all elements */
     padding: 0; /* Resets default padding for all elements */
 }
-.button{
+.buttonC{
     display: flex;
     justify-content: right;
     
